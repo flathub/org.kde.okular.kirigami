@@ -454,7 +454,8 @@
             "name": "phonon-vlc",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DPHONON_BUILD_QT5=OFF"
+                "-DPHONON_BUILD_QT5=OFF",
+                "-DPHONON_BUILD_DESIGNER_PLUGIN=OFF"
             ],
             "sources": [
                 {
