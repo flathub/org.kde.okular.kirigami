@@ -6,19 +6,20 @@
     "command": "okularkirigami",
     "rename-icon": "okular",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=cups",
-        "--socket=pulseaudio",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=pulseaudio",
+        "--socket=wayland"
     ],
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/lib/*.a",
         "/lib/*.la",
+        "/lib/vlc/**/*.la",
         "/lib/cmake",
         "/share/man",
         "/share/doc",
@@ -453,7 +454,8 @@
             "name": "phonon-vlc",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DPHONON_BUILD_QT5=OFF"
+                "-DPHONON_BUILD_QT5=OFF",
+                "-DPHONON_BUILD_DESIGNER_PLUGIN=OFF"
             ],
             "sources": [
                 {
@@ -571,10 +573,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/okular-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "okular-mimetypes.patch"
                 },
                 {
                     "type": "script",
