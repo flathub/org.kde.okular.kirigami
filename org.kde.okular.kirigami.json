@@ -19,6 +19,7 @@
         "/lib/pkgconfig",
         "/lib/*.a",
         "/lib/*.la",
+        "/lib/vlc/**/*.la",
         "/lib/cmake",
         "/share/man",
         "/share/doc",
