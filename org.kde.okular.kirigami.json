@@ -573,10 +573,6 @@
                     }
                 },
                 {
-                    "type": "patch",
-                    "path": "okular-mimetypes.patch"
-                },
-                {
                     "type": "script",
                     "dest-filename": "okularkirigami-wrapper",
                     "commands": [
