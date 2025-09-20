@@ -208,7 +208,8 @@
         {
             "name": "ghostscript",
             "config-opts": [
-                "--disable-cups"
+                "--disable-cups",
+                "--without-tesseract"
             ],
             "make-args": [
                 "so"
@@ -226,8 +227,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10051/ghostscript-10.05.1.tar.gz",
-                    "sha256": "121861b6d29b2461dec6575c9f3cab665b810bd408d4ec02c86719fa708b0a49",
+                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.gz",
+                    "sha256": "5bd6da34794928cc7e616f288e32bd0be7f9a5ca2d3c206a0af2c19a4e3a318f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1157,
@@ -267,8 +268,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.3.tar.gz",
-                    "sha256": "368fe0468228e767433c9ebdea82ad9d801a3ad1e4234421f352c8b06e7aa707",
+                    "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.4.tar.gz",
+                    "sha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 2550,
