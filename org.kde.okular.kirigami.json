@@ -232,8 +232,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.gz",
-                    "sha256": "5bd6da34794928cc7e616f288e32bd0be7f9a5ca2d3c206a0af2c19a4e3a318f",
+                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10070/ghostscript-10.07.0.tar.gz",
+                    "sha256": "ed6ea62022e3f4d5a6569b6efc9361b63a6d118bfcad8f0beb897c37885b5cad",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1157,
@@ -299,8 +299,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-26.03.0.tar.xz",
-                    "sha256": "8b3c5e2a9f2ab4c3ec5029f28af1b433c6b71f0d1e7b3997aa561cf1c0ca4ebe",
+                    "url": "https://poppler.freedesktop.org/poppler-26.04.0.tar.xz",
+                    "sha256": "b0955163114af96bc0106f68cb24daf973a629462453d8b82775f81b0d4e0693",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
